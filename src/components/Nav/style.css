@@ -1,0 +1,27 @@
+.navbar {
+  background-color: rgb(75, 82, 102);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  color: white;
+  font-size: 30px;
+  z-index: 99;
+  white-space: nowrap;
+}
+
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+li {
+  width: 32%;
+  margin: auto;
+  float: left;
+  text-align: center;
+}
